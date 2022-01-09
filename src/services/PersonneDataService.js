@@ -2,21 +2,21 @@ import http from "../http-common";
 
 class PersonneDataService {
   getAll() {
-    return http.get("/annuaire/api");
+    return http.get("/annuaire/entree");
   }
 
   get(id) {
-    return http.get(`/annuaire/api/${id}`);
+    return http.get(`/annuaire/entree/${id}`);
   }
-
+  
   create(data) {
-    return http.post("/annuaire/api", data);
+    return http.post("/annuaire/entree", data);
   }
   delete(id) {
-    return http.delete(`/annuaire/api/${id}`);
+    return http.delete(`/annuaire/entree/${id}`);
   }
   update(data) {
-    return http.put("/annuaire/api", data);
+    return http.put("/annuaire/entree", data);
   }
 
 }
