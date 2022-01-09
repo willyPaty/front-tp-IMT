@@ -8,6 +8,7 @@
       <title>App-Vue</title>
     </head>
     <!-- Required meta tags -->
+    <!-- Maj-1.1 09/01/2022-->
 
     <body>
       <div id="app">

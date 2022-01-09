@@ -6,6 +6,8 @@
       <title>Ajout d'un contact</title>
     </head>
     <!-- Required meta tags -->
+    <!-- Maj-1.1 09/01/2022-->
+    
     <body>
       <div class="row row-cols-1 row-cols-md-2 g-4 grp">
         <div class="card-group">
